@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="text-white bg-black">
+    <div class="flex container mx-auto">
+        <div class="first w-16 md:w-[60%] flex flex-col items-center">
+            <div class="logo mx-4 invert flex justify-center sticky">
+                <img src="twitter.svg" class="w-8 h-8" />
+            </div>
+            <div class="navbar h-screen my-4 mx-0 flex justify-center sticky top-0">
+                <ul class="flex flex-col items-center md:items-start w-full">
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="home.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Home</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="explore.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Explore</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="notification.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Notifications</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="grok.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Grok</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="lists.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Lists</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="bookmark.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Bookmarks</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="community.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Communities</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="profile.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">Profile</span>
+                    </li>
+                    <li class="flex justify-center md:justify-start items-center gap-0 md:gap-4 my-1 font-bold hover:bg-gray-300 cursor-pointer w-12 md:w-full rounded-full py-2 px-0 md:px-3">
+                        <img class="invert w-6 h-6" src="more.svg">
+                        <span class="hidden md:block ml-0 md:ml-2">More</span>
+                    </li>
+                    <button class="bg-blue-600 px-8 py-2 rounded-[40px] my-11 hidden md:block">Post</button>
+                </ul>
+            </div>
+        </div>
+        <div class="second border-l border-white border-r border-white w-full">
+            <div class="top flex py-3">
+                <div class="For You w-1/2 flex justify-center">For You</div>
+                <div class="Following w-1/2 flex justify-center">Following</div>
+                <div><img class="invert" src="setting.svg"></div>
+            </div>
+            <div class=" hidden md:block w-[70px] h-1 mx-20 bg-blue-700"></div>
+            <hr>
+            <div class="post">
+                <div class="img w-6 flex">
+                    <img class="invert my-5" src="logo.png">
+                    <div class="content my-3">
+                        <input class="bg-gray-950 outline-none mx-4" type="text" placeholder="whats happening">
+                        <h1 class="text-blue-500 mx-4">Everyone can reply</h1>
+                    </div>
+                </div>
+                <hr class="h-3 bg-red">
+                <div class="icons size-5 flex justify-start gap-3 mx-10">
+                    <img class="invert" src="home.svg">
+                    <img class="invert" src="notification.svg">
+                    <img class="invert" src="setting.svg">
+                    <img class="invert" src="grok.svg">
+                    <button class="bg-blue-500 rounded-lg px-3">Post</button>
+                </div>
+                <hr class="my-3">
+            </div>
+            <div class="post">
+                <div class="img w-6 flex gap-3">
+                    <img class="invert" src="logo.png">
+                    <h1>ElonMusk</h1>
+                </div>
+                <div class="content mx-3 text-sm my-3">
+                    <h1>ElonMusk is the one of the most powerful person</h1>
+                </div>
+                <div class="icons size-5 flex justify-start gap-9 mx-2">
+                    <img class="invert" src="home.svg">
+                    <img class="invert" src="notification.svg">
+                    <img class="invert" src="setting.svg">
+                    <img class="invert" src="grok.svg">
+                </div>
+                <hr class="my-3">
+            </div>
+            <div class="post">
+                <div class="img w-6 gap-3 flex">
+                    <img class="invert" src="logo.png">
+                    <h1>ElonMusk</h1>
+                </div>
+                <span class="mx-9 text-sm">Legend</span>
+                <div class="img mx-3 text-sm my-3">
+                    <img class="w-full h-full rounded" src="post1.png">
+                </div>
+                <hr class="my-3">
+            </div>
+            <div class="post">
+                <div class="img w-6 gap-3 flex">
+                    <img class="invert" src="home.svg">
+                    <h1>ElonMusk</h1>
+                </div>
+                <span class="mx-9 text-sm">Legend</span>
+                <div class="img mx-3 text-sm my-3">
+                    <img class="w-full h-full rounded" src="post2.jpeg">
+                </div>
+                <hr class="my-3">
+            </div>
+            <div class="post">
+                <div class="img w-6 gap-3 flex">
+                    <img class="invert" src="home.svg">
+                    <h1>ElonMusk</h1>
+                </div>
+                <span class="mx-9 text-sm">Legend</span>
+                <div class="img mx-3 text-sm my-3">
+                    <img class="w-full h-full rounded" src="post3.png">
+                </div>
+                <hr class="my-3">
+            </div>
+            <div class="post">
+                <div class="img w-6 gap-3 flex">
+                    <img class="invert" src="home.svg">
+                    <h1>ElonMusk</h1>
+                </div>
+                <span class="mx-9 text-sm">Legend</span>
+                <div class="img mx-3 text-sm my-3">
+                    <img class="w-full h-full rounded" src="post1.png">
+                </div>
+                <hr class="my-3">
+            </div>
+            <div class="post">
+                <div class="img w-6 gap-3 flex">
+                    <img class="invert" src="home.svg">
+                    <h1>ElonMusk</h1>
+                </div>
+                <span class="mx-9 text-sm">Legend</span>
+                <div class="img mx-3 text-sm my-3">
+                    <img class="w-full h-full rounded" src="post2.jpeg">
+                </div>
+                <hr class="my-3">
+            </div>
+        </div>
+        <div class="third w-full mx-2 hidden md:block">
+            <input type="text" class="rounded-full my-2 py-1 w-1/2 bg-gray-600" placeholder="search">
+            <div class="item bg-gray-900 rounded-2xl w-[80%]">
+                <h1 class="mx-3 font-bold">Whats happening</h1>
+                <div class="item1 my-3 mx-3 hover:bg-gray-700 cursor-pointer">
+                    <h1>Trending in India</h1>
+                    <h2 class="text-sm">#Orry</h2>
+                    <p class="text-xs">40.2kposts</p>
+                </div>
+                <div class="item1 my-3 mx-3 hover:bg-gray-700 cursor-pointer">
+                    <h1>Trending in India</h1>
+                    <h2 class="text-sm">#Orry</h2>
+                    <p class="text-xs">40.2kposts</p>
+                </div>
+                <div class="item1 mx-3 hover:bg-gray-700 cursor-pointer">
+                    <h1>Trending in India</h1>
+                    <h2 class="text-sm">#Orry</h2>
+                    <p class="text-xs">40.2kposts</p>
+                </div>
+            </div>
+            <div class="item bg-gray-900 rounded-2xl w-[80%] my-5">
+                <h1 class="mx-3 py-3 font-bold">Who to Follow</h1>
+                <div class="item1 my-3 mx-3 hover:bg-gray-700 cursor-pointer">
+                    <h1>Trending in India</h1>
+                </div>
+                <div class="item1 my-3 mx-3 hover:bg-gray-700 cursor-pointer">
+                    <h1>Trending in India</h1>
+                </div>
+                <div class="item1 mx-3 hover:bg-gray-700 cursor-pointer">
+                    <h1>Trending in India</h1>
+                </div>
+                <p class="text-blue-700 mx-3">show more</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
